@@ -1,0 +1,32 @@
+{% extends 'shablon/base.html' %}
+{% load static %}
+
+{% block title %}Наши услуги и цены{% endblock%}
+
+
+{% block styles %}
+       <link rel="stylesheet" type="text/css" href="{% static 'uslugi/css/uslugi.css' %}">
+{% endblock %}
+{% block content %}
+<div class="content container">
+    <h1>Широкоформатная печать</h1>
+</div>
+{% for uslugi in uslugis%}
+<div class="content">
+        <figure>
+            {% if uslugi.image %}
+        <p><img src="{{uslugi.image.url}}"  class="responsive"></p>
+             {% else %}
+       <p></p>
+            {% endif %}
+        <div class="row">
+                <div class="col-md">
+                    <figcaption><h2>{{ uslugi.title }}</h2></figcaption>
+                    <figcaption><p>{{ uslugi.text|linebreaksbr }}</p></figcaption>
+</div>
+</div>
+</div>
+</div>
+</figure>
+{% endfor%}
+{% endblock %}
