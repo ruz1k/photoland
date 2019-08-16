@@ -5,6 +5,7 @@ from django.utils import timezone
 class Uslugi(models.Model):
 	title = models.CharField(max_length=255)
 	text = models.TextField()
+	price = models.IntegerField(null=True)
 	image = models.ImageField(upload_to="media/uslugi", null=True)
 	published_date = models.DateTimeField(blank=True, null=True)
 

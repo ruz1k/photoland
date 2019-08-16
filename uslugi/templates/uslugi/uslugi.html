@@ -9,7 +9,7 @@
 {% endblock %}
 {% block content %}
 <div class="content container">
-    <h1>Широкоформатная печать</h1>
+    <h1>Услуги</h1>
 </div>
 {% for uslugi in uslugis%}
 <div class="content">
@@ -21,8 +21,11 @@
             {% endif %}
         <div class="row">
                 <div class="col-md">
+                    <div class="container">
                     <figcaption><h2>{{ uslugi.title }}</h2></figcaption>
                     <figcaption><p>{{ uslugi.text|linebreaksbr }}</p></figcaption>
+                    <figcaption><p>Цена: {{ uslugi.price }} руб</p></figcaption>
+</div>
 </div>
 </div>
 </div>
