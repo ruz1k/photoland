@@ -1,0 +1,30 @@
+{% extends "shablon/base.html" %}
+{% load static %}
+
+{% block title %} Примеры наших работ {% endblock %}
+
+{% block styles %}
+         <link rel="stylesheet" type="text/css" href="{% static 'raboti/css/raboti.css' %}">
+{% endblock %}
+
+{% block content %}
+{% for rabota in raboti%}
+<figure>
+      <div class="content">
+            {% if rabota.image %}
+        <p><img src="{{rabota.image.url}}"  class="responsive"></p>
+             {% else %}
+       <p></p>
+            {% endif %}
+          <div class="row">
+                <div class="col-md">
+                    <div class="container">
+                        <figcaption><h2>{{ rabota.title }}</h2></figcaption>
+                    </div>
+                </div>
+          </div>
+      </div>
+</figure>
+{% endfor %}
+
+{% endblock %}

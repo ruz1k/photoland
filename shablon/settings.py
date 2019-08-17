@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'shablon_primer',
     'uslugi',
+    'primeri',
 ]
 
 MIDDLEWARE = [
