@@ -2,6 +2,7 @@
     margin-top:150px;
     font-size:20px;
     text-align:center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content h1 {
@@ -10,8 +11,8 @@
 }
 
 .content h2 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .navbar-brand {
@@ -21,6 +22,9 @@
 .responsive {
     width:300px;
     height: 340px;
+    background-color: #fff;
+    border: 6px solid ;
+    border-radius: 30px;
 }
 
 figure {
@@ -35,6 +39,10 @@ figure {
 }
 figure p {
     margin-bottom: 21px;
+}
+
+.nav-item {
+  font-size:18.3px;
 }
 
 @media screen and (min-width: 320px) and (max-width:500px){
@@ -62,73 +70,4 @@ figure p {
   font-size: 120%;
   font-weight:bold;
   margin-left: -10px;
-}
-
-
-.container {
-    width: 100%;
-}
-}
-@media screen and (min-width:501px) and (max-width: 699px){
-        figure {
-    background: white;
-    display: inline-block;
-    float: left;
-    margin: 0 72px 120px 0;
-    text-align: center;
-    margin-left: 12px;
-}
-    figure p {
-    margin-bottom: 21px;
-   }
-    .responsive {
-    width:250px;
-    height: 320px;
-}
-.content {
-    margin-top:150px;
-    font-size:95%;
-    text-align:center;
-}
-.content h2 {
-  font-size: 120%;
-  font-weight:bold;
-  margin-left: -10px;
-}
-
-
-.container {
-    width: 100%;
-}
-}
-
-@media screen and (min-width: 701px) and (max-width:899px){
-        figure {
-    background: white;
-    margin: 0 10px 120px 0;
-    text-align: center;
-    margin-left: 12px;
-}
-    figure p {
-    margin-bottom: 21px;
-   }
-    .responsive {
-    width:280px;
-    height: 320px;
-}
-.content {
-    margin-top:150px;
-    font-size:95%;
-    text-align:center;
-}
-.content h2 {
-  font-size: 120%;
-  font-weight:bold;
-  margin-left: -10px;
-}
-
-
-.container {
-    width: 100%;
-}
 }

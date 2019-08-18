@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97959c48-1e99-4d4e-b54f-e27ce3f093ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shablon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shablon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shablon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shablon/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shablon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shablon/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeri/static/raboti/css/raboti.css" beforeDir="false" afterPath="$PROJECT_DIR$/primeri/static/raboti/css/raboti.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeri/templates/primer_rabot/primer_rabot.html" beforeDir="false" afterPath="$PROJECT_DIR$/primeri/templates/primer_rabot/primer_rabot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shablon_primer/templates/shablon/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shablon_primer/templates/shablon/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uslugi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uslugi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uslugi/static/uslugi/css/uslugi.css" beforeDir="false" afterPath="$PROJECT_DIR$/uslugi/static/uslugi/css/uslugi.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +59,8 @@
       <workItem from="1565892674562" duration="10022000" />
       <workItem from="1565996330224" duration="2158000" />
       <workItem from="1566004860436" duration="1635000" />
+      <workItem from="1566064001404" duration="951000" />
+      <workItem from="1566070142901" duration="3595000" />
     </task>
     <servers />
   </component>

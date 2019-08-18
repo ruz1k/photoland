@@ -2,6 +2,7 @@
     margin-top:150px;
     font-size:20px;
     text-align:center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content h1 {
@@ -10,8 +11,8 @@
 }
 
 .content h2 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .navbar-brand {
@@ -21,6 +22,9 @@
 .responsive {
     width:300px;
     height: 340px;
+    background-color: #fff;
+    border: 6px solid ;
+    border-radius: 30px;
 }
 
 figure {
@@ -35,6 +39,10 @@ figure {
 }
 figure p {
     margin-bottom: 21px;
+}
+
+.nav-item {
+  font-size:18.3px;
 }
 
 @media screen and (min-width: 320px) and (max-width:500px){
