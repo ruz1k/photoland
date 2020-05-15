@@ -3,33 +3,27 @@
 
 {% block title %}Наши услуги и цены{% endblock%}
 
-
 {% block styles %}
        <link rel="stylesheet" type="text/css" href="{% static 'uslugi/css/uslugi.css' %}">
 {% endblock %}
 {% block content %}
-<div class="content container">
+<div class="content text-center">
+     <div class="container-fluid justify-content-center">
     <h1>Услуги</h1>
-</div>
+<div class="row">
 {% for uslugi in uslugis%}
-<div class="content">
-        <figure>
+    <div class="col-xs-12 col-md-4 col-sm-6">
             {% if uslugi.image %}
-        <p><img src="{{uslugi.image.url}}"  class="responsive"></p>
+    <img src="{{uslugi.image.url}}">
              {% else %}
        <p></p>
             {% endif %}
-        <div class="row">
-                <div class="col-md">
-                    <div class="container">
-                    <figcaption><h2>{{ uslugi.title }}</h2></figcaption>
-                    <figcaption><p>{{ uslugi.text|linebreaksbr }}</p></figcaption>
-                    <figcaption><p>Цена: {{ uslugi.price }} руб</p></figcaption>
+                    <h2>{{ uslugi.title }}</h2>
+                    <p>{{ uslugi.text|linebreaksbr }}</p>
+                    <p>Цена: {{ uslugi.price }} руб</p>
+    </div>
+        {% endfor%}
 </div>
 </div>
 </div>
-</div>
-</div>
-</figure>
-{% endfor%}
 {% endblock %}
