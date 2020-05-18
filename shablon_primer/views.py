@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import Shablon
 
 def index(request):
-    return render (request, 'shablon/index.html')
+    shab = Shablon.objects.all()
+    return render (request, 'shablon/index.html', {"shab": shab})
