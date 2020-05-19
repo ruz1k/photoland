@@ -1,0 +1,36 @@
+{% extends 'shablon/base.html' %}
+
+{% load static %}
+
+{% block title %}Контакты{% endblock %}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block scripts %}{% endblock %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/contact.css' %}">
+{% block style%}
+{% endblock%}
+
+{% block content %}
+<div class="social block bg-light" style="margin:0 auto">
+<div class="container-fluid">
+    <div class="row text-center bg-light justify-content-center">
+        <div class="col-xs-10 col-md-12 col-lg-12 col-xl-12">
+            <h1>Сделать заказ</h1>
+            <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/marco1192@mail.ru" method="post">
+            <div class="form-group" style="margin:0 auto">
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name">Name</label>
+                <input type="text" name="Имя" class="form-control" id="full-name" placeholder="Sergey">
+              <label for="email">Email address</label>
+              <input type="email" name="Email" class="form-control" id="email" placeholder="name@example.com">
+            <label for="complaint"></label>
+            <textarea rows="6" name="Сообщение" id="complaint" class="form-control" placeholder="Введите ваше сообщения....." required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+        </fieldset>
+        <input type="submit" class="btn btn-success" value="Отправить" style="margin:10px">
+        </form>
+      </div>
+    </div>
+   </div>
+</div>
+{% endblock %}

@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97959c48-1e99-4d4e-b54f-e27ce3f093ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/media/image/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/image/13fb015199c91c02948646c60e7daba7.jpg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/primeri/2020-04-03_7_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/primeri/893df0e4ba28212473988d896efb1030.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/primeri/893df0e4ba28212473988d896efb1030_VDheC7H.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/primeri/893df0e4ba28212473988d896efb1030_dPRNZxO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/2019-02-26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/2019-02-26_UbqKYOf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/2019-03-02_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/2019-04-19_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/2019-04-19_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/2020-04-03_7_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/2020-04-03_7_1_36ZpOWq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/2oXFsWdvyTo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/Hearthstone_Screenshot_06-10-19_22.52.42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/Hearthstone_Screenshot_06-10-19_22.52.42_7LhniPh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/Hearthstone_Screenshot_06-10-19_22.52.42_h6NZgA5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/Hearthstone_Screenshot_06-12-19_22.37.31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/Hearthstone_Screenshot_06-12-19_22.37.31_CVAmNch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/Svidetel_exploitable_HQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/Svidetel_exploitable_HQ_Us0r4Ns.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/wbqZ9Xc-cgM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/wbqZ9Xc-cgM_G3eaHN1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/wbqZ9Xc-cgM_il3bHe8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/uslugi/wbqZ9Xc-cgM_jmq6bIt.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatc/static/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatc/templates/contact/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatc/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeri/templates/primer_rabot/primer_rabot.html" beforeDir="false" afterPath="$PROJECT_DIR$/primeri/templates/primer_rabot/primer_rabot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shablon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shablon/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shablon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shablon/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shablon_primer/templates/shablon/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shablon_primer/templates/shablon/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shablon_primer/templates/shablon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shablon_primer/templates/shablon/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -91,6 +75,8 @@
       <workItem from="1589587405557" duration="13000" />
       <workItem from="1589822197531" duration="1747000" />
       <workItem from="1589823960143" duration="1929000" />
+      <workItem from="1589898997645" duration="1225000" />
+      <workItem from="1589900983675" duration="74000" />
     </task>
     <servers />
   </component>
@@ -115,9 +101,9 @@
       <screen x="62" y="0" width="1986" height="1152" />
     </state>
     <state x="835" y="333" key="FileChooserDialogImpl/62.0.1986.1152@62.0.1986.1152" timestamp="1589587416658" />
-    <state x="763" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1589824015919">
+    <state x="763" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1589900983723">
       <screen x="62" y="0" width="1986" height="1152" />
     </state>
-    <state x="763" y="403" key="com.intellij.ide.util.TipDialog/62.0.1986.1152@62.0.1986.1152" timestamp="1589824015919" />
+    <state x="763" y="403" key="com.intellij.ide.util.TipDialog/62.0.1986.1152@62.0.1986.1152" timestamp="1589900983723" />
   </component>
 </project>

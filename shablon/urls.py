@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'', include('shablon_primer.urls')),
     url(r'^Услуги/', include('uslugi.urls')),
     url(r'^Примеры_наших_работ/', include('primeri.urls')),
+    url(r'^Контакты/', include('contatc.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:

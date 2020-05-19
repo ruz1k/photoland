@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'shablon_primer',
     'uslugi',
     'primeri',
+    'contatc',
 ]
 
 MIDDLEWARE = [
