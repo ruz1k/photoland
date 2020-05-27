@@ -2,6 +2,10 @@
   margin: 0 auto;
 }
 
+.navbar-nav a{font-size:18px;font-weight:500;}
+
+.navbar-brand {font-size:30px}
+
 .home {
   margin: 0 auto;
   max-width: 100%;
