@@ -15,7 +15,7 @@
 {% for rabota in raboti%}
     <div class="col-xs-12 col-md-4 col-sm-6">
         {% if rabota.image %}
-        <img src="{{rabota.image.url}}">
+        <a href="{{rabota.image.url}}"><img src="{{rabota.image.url}}"></a>
         {% else %}
         <p></p>
         {% endif %}
